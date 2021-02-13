@@ -1,0 +1,173 @@
+body {
+  background-color:#e2dff1;
+}
+
+h2 {
+  font: normal 32px 'century gothic', arial, sans-serif;
+  color: #136cb2;
+}
+
+.header {
+  background-color: darkslateblue;
+  height: 150px;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 900px;
+  color: #fff;
+}
+
+.logo {
+  text-align: center;
+}
+
+.main, .logo, .site_content, .footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo h1 {
+  font: normal 38px 'century gothic', arial, sans-serif;
+  margin: 0 0 0 9px;
+}
+
+.logo_text h1 {
+  padding: 14px 0 10px 0;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.greetings {
+  font: normal 25px 'century gothic', arial, sans-serif;
+  margin: 20px;
+}
+
+.output {color:wheat}
+
+.logout_btn {
+  float: right;
+  padding: 5px 10px 5px 10px;
+  width: auto;
+  height: auto;
+  margin: -5px 10px 0 0;
+  border: 2px solid wheat;
+  background-color:slateblue ;
+  border-radius: 3px;
+  display: inline;
+  cursor: pointer;
+  font: 20px arial, sans-serif;
+  color: #fff;
+}
+
+.pay {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.pay input {
+  font-size: 16px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 3px;
+  border: 1px solid slateblue;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.send_btn {
+  border-radius: 3px;
+  border: 2px solid darkslateblue;
+  font-size: 16px;
+  color: #fff;
+  background-color:slateblue ;
+  padding: 4px 10px 4px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(141, 125, 241)
+}
+
+.autocomplete-wrap {
+  position: relative;
+}
+
+.autocomplete-list {
+  position: absolute;
+  top: 100%;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid slateblue;
+  z-index: 9999;
+  max-height: 400px;
+  overflow-y: auto;
+  display: none;
+  background-color: white;
+  left: 0;
+  width: 300px;
+}
+
+.autocomplete-wrap.active .autocomplete-list {
+  display: block;
+  border-radius: 0 0 3px 3px;
+}
+
+.autocomplete-item {
+  text-align: left;
+  font: 16px arial;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+.autocomplete-item:hover {
+  background: wheat;
+}
+
+
+.autocomplete-wrap.active .autocomplete-input {
+  border-radius: 3px 3px 0 0;
+  border-bottom: 1px solid transparent;
+}
+
+.autocomplete-item.focused {
+  background-color: #ccc;
+}
+
+#query {width: 300px;}
+
+.history {
+  text-align: center;
+}
+
+.table_wrap {
+  font: 16px arial;
+  max-height: 400px;
+}
+
+table {
+  margin: auto;
+  background-color:white;
+  text-align: left;
+  border: 2px solid slateblue;
+  padding: 0px;
+  overflow-y: auto;
+  max-height: 400px;
+}
+
+td {
+  margin: 0;
+  padding: 5px 10px;
+  border-top: 1px solid slateblue;
+  border-left: 0;
+  border-right: 0;
+}
+
+th {
+  margin: 0 -1px ;
+  padding: 5px 10px;
+  text-align: center;
+  font: bold 16px arial, sans-serif;
+  color: slateblue ;
+  background-color: wheat;
+}
+
+tr {
+  border-top: 5px solid slateblue;
+}

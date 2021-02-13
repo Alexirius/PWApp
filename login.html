@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html">
+  
+  <title>PW Login Page</title>
+
+	<link rel="stylesheet" href="./files/css/funcs.css">
+	<link rel="stylesheet" href="./files/css/login.css">
+
+  <script type="text/javascript" src = 'https://code.jquery.com/jquery-3.5.1.min.js'></script>
+  <script type="text/javascript" src = './files/js/funcs.js'></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+    <div class="login-page">
+
+      <div class="login-form">
+        
+        <div class="title">PW Application Login</div>
+        
+        <form id = "login_form" method = "post">
+         
+          <div class="fields">
+            
+            <div class="input_wrap">
+              <input type="email" name="email" id="email" required="" class=" input" placeholder="email">
+            </div>
+            <div class="input_wrap password">
+              <input type="password" name="password" id="id_password" required="" class=" input" placeholder="password">
+            </div>
+            <button class="login-btn" type="submit">
+              <b>ENTER</b>
+            </button>
+            <button class="register-btn" type="button" onclick='window.location.href = "register.html"'>
+              <b>Create Free Account</b>
+            </button>
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<script type="text/javascript" src = './files/js/login.js'></script>
+	
+</body>
+</html>
