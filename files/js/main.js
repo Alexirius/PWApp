@@ -10,10 +10,18 @@ if (!localStorage.getItem('token')) {
 } 
 const token = localStorage.getItem('token');
 
-
-
 $(document).ready(function(){
-	
+
+	var my = {
+        window : $(window)
+    };
+
+	if(my.window.width() < 600) {
+		$(function (){
+			$('#br').prepend('<br>');
+			$('.pay').append('<br>');
+		});
+	}
 	// Getting User Info
 
 	$.ajax({

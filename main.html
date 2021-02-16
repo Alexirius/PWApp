@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Your Parrot Wings Office</title>
 	<meta name="description" content="The application is for Parrot Wings (PW, “internal money”) transfer between system users." />
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="./files/css/funcs.css">
 	<link rel="stylesheet" href="files/css/main.css">
@@ -29,7 +29,8 @@
 			<div class='greetings'>
 				<span> Welcome, </span>
 				<span class="output" id='user'></span>
-				<span>!    Your balance is </span>
+				<span>! </span>
+				<span id="br"> Your balance is </span>
 				<span class="output" id='balance'></span>
 				<span> PW.</span>
 				<button class='logout_btn' type='button'>Logout</button>
@@ -47,8 +48,7 @@
 			<span><button class='send_btn' type='button'>Send</button></span>
 		</div>
 	</div>
-	
-	<hr style="background-color: slateblue; height: 2px;">
+	<!-- <hr style="background-color: slateblue; height: 2px;"> -->
 	<div class="history">
 		<h2>Transactions History</h2>
 		<div class="table_wrap"></div>

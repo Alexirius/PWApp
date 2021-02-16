@@ -12,7 +12,6 @@ h2 {
   height: 150px;
   margin-left: 0px;
   margin-right: 0px;
-  min-width: 900px;
   color: #fff;
 }
 
@@ -147,7 +146,7 @@ table {
   text-align: left;
   border: 2px solid slateblue;
   padding: 0px;
-  overflow-y: auto;
+  overflow: auto;
   max-height: 400px;
 }
 
@@ -171,3 +170,93 @@ th {
 tr {
   border-top: 5px solid slateblue;
 }
+
+
+/* CSS Mobile */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 600px) {
+
+  body {
+    width: 100%;
+    margin: 0;
+    font-size: 10px;
+  }
+
+  .header {
+    /* font:  normal 1em 'century gothic', arial, sans-serif; */
+    min-width: 320px;
+    height: 90px;
+    /* background-color: #257965;
+    text-align: center; */
+  }
+  
+  .logo_text h1 {
+    font-size: 20px;
+    padding: 4px 0 0px 0;
+    margin: 0;
+  }
+
+  .greetings {
+   font-size: 14px;
+   margin: 0 0 0 2px;
+  }
+
+  .logout_btn {
+    font-size: 14px;
+    padding: 1px 5px 2px 5px;
+    margin-top: 1px;
+  }
+
+  #user {
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    font-size: 16px;
+    margin: auto;
+    width: 300px;
+    float: none;
+  }
+
+  .pay input {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  #query {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+
+  #amount {
+    float: left;
+    margin-left: 5px;
+  }
+
+  .send_btn {
+    font-size: 12px;
+    padding: 4px 10px 4px 10px;
+    float: right;
+    margin-right: 5px;
+} 
+
+  .history {
+    width: 100%;
+    display: table;
+    text-align: center;
+  }
+
+  table {
+  font-size: 10px;
+  width: 100%;
+  }
+
+  th {
+  font-size: 10px;
+  }
+
+}
+
